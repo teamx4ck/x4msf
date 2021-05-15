@@ -31,6 +31,7 @@ if opt=='1' or opt=='2' or opt=='3' or opt=='4' or opt=='5':
 	pass
 else:
 	print(red,'\nOption not found!!',re)
+	sys.exit()
 lhost = input(red+'\n[>] '+cyn+'Enter LHOST : '+re)
 lport = input(red+'\n[>] '+cyn+'Enter LPORT : '+re)
 name = input(red+'\n[>] '+cyn+'Enter a payload name : '+re)
